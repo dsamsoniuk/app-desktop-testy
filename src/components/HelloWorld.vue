@@ -2,12 +2,12 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
       <h1>Akcja lokalna: {{ count }}</h1>
-      <button @click="count++">Dodaj</button>
+      <button @click="count++" class="btn btn-success">Dodaj</button>
 
       <p>Wiadomosc z pamieci: {{ message }}</p>
-      <input v-model="message" placeholder="edit me" />
+      <input v-model="message" placeholder="edit me" class="form-control" />
 
-      <button @click="zapisz">Zapisz wiadomosc do pamiecie</button>
+      <button @click="zapisz" class="btn btn-primary">Zapisz wiadomosc do pamiecie</button>
       <br/>---Po ponownym uruchomieniu aplikacji wiadomosc nadal bedzie widoczna
 
   </div>
