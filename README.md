@@ -1,5 +1,7 @@
 # App Hybryd
 
+Vuejs 2 + Electron
+
 Korzystałem z:
 
 * nodejs 16
@@ -31,7 +33,7 @@ dist/win-unpacked/vue-desktop.exe
 
 
 
-## Project setup
+## Project setup - INSTALACJA PROJEKTU
 ```
 npm install
 ```
